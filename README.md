@@ -16,6 +16,8 @@ Expiring       20 2026-12-16 09:00 AppRegistration Backup job   Certificate    c
 ```
 (Example output from the mock test, not a real tenant.)
 
+Guides: [alerting options](https://truone01.github.io/entra-app-credential-expiry/alert-before-app-secret-expires.html) · [PowerShell details](https://truone01.github.io/entra-app-credential-expiry/find-expiring-client-secrets-powershell.html) · [rotation without downtime](https://truone01.github.io/entra-app-credential-expiry/rotate-app-registration-secret-without-downtime.html)
+
 ## Use
 
 ```powershell
