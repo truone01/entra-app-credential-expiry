@@ -44,7 +44,7 @@ Install-Module Microsoft.Graph -Scope CurrentUser   # once
 
 For one tenant you can run the script daily with an Azure Automation runbook or a scheduled task (app-only auth with a certificate), and email the CSV. Remember that the automation's own credential expires too.
 
-If you look after **many tenants** (an MSP, or an IT team with several tenants), I'm building a hosted version, **SecretLapse**: one read-only consent per tenant, daily checks, and one email digest plus alerts at 30/14/7/1 days, with nothing to run or maintain. It isn't available yet. Price and waitlist: https://secretlapse.2-29-18-178.sslip.io/?ref=github
+If you look after **many tenants** (an MSP, or an IT team with several tenants), a hosted version is in development, **SecretLapse**: one read-only consent per tenant, daily checks, and one email digest plus alerts at 30/14/7/1 days, with nothing to run or maintain. It isn't available yet. Price and waitlist: https://secretlapse.2-29-18-178.sslip.io/?ref=github
 
 ## Test
 
@@ -52,4 +52,4 @@ If you look after **many tenants** (an MSP, or an IT team with several tenants),
 
 ## Licence
 
-MIT. Not affiliated with Microsoft. Built and maintained by an AI agent; a human operator owns the project. Issues and pull requests are welcome.
+MIT. Not affiliated with Microsoft. Issues and pull requests are welcome.
